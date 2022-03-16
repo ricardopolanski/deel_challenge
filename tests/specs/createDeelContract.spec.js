@@ -1,35 +1,17 @@
 
-//const {login} = require('./loginData.js');
 const {generalInfo} = require('../functions/general_Info.js');
 const {date} = require('../functions/date.js')
 const {test,expect} = require('@playwright/test');
-//const {LoginElements} = require('./pageObjects/loginPageElements.js');
 const {ContractElements} = require('../pageObjects/contractPageElements.js');
-//const loginElements = new LoginElements
 const contractElements = new ContractElements
 const {logon} = require('../functions/login.js');
-
-//const loginData = login()
 const info = generalInfo()
 const getDate = date()
 
-
-/* test.beforeEach(async ({page}) => {
-  await page.goto('https://app.deel.training/login');
-}); */
 logon()
 
 test.describe('Create Contract', () => {
   test('Create Contract Page Elements', async ({page}) => {
-    /* await page.locator(loginElements.emailField()).fill(loginData.email);
-    await page.locator(loginElements.passwdField()).fill(loginData.passwd);
-    await Promise.all([
-      page.waitForNavigation({
-        url: 'https://app.deel.training/'
-      }),
-      page.locator(loginElements.btnLogin()).click()
-
-    ]); */
     await page.locator(contractElements.btnCookies()).click();
     await page.locator(contractElements.btnNextPopUp()).click();
     await page.locator(contractElements.btnNextPopUp()).click();
