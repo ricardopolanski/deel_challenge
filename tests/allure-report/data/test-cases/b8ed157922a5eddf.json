@@ -1,0 +1,46 @@
+{
+  "uid" : "b8ed157922a5eddf",
+  "name" : "Check login page elements",
+  "fullName" : "Check login page elements",
+  "historyId" : " loginPagecopy.spec.js Test login page Check login page elements",
+  "time" : {
+    "start" : 1647291357150,
+    "stop" : 1647291362607,
+    "duration" : 5457
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "suite",
+    "value" : "loginPagecopy.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8ed157922a5eddf.json",
+  "parameterValues" : [ ]
+}

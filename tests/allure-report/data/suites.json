@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "loginPagecopy.spec.js",
+    "children" : [ {
+      "name" : "Test login page",
+      "children" : [ {
+        "name" : "Check login page elements",
+        "uid" : "747887cb86abdb9d",
+        "parentUid" : "45466822686c78684b38bb1f5170038e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647291495173,
+          "stop" : 1647291500414,
+          "duration" : 5241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login Test",
+        "uid" : "58ecbfdabb437643",
+        "parentUid" : "45466822686c78684b38bb1f5170038e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647291500414,
+          "stop" : 1647291530437,
+          "duration" : 30023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45466822686c78684b38bb1f5170038e"
+    } ],
+    "uid" : "54092dda3368781b7870e9d16ea374c8"
+  } ]
+}

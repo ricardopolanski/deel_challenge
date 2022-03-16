@@ -1,0 +1,41 @@
+{
+  " loginPagecopy.spec.js Test login page Login Test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58ecbfdabb437643",
+      "status" : "broken",
+      "statusDetails" : "page.waitForResponse: Page closed",
+      "time" : {
+        "start" : 1647291500414,
+        "stop" : 1647291530437,
+        "duration" : 30023
+      }
+    } ]
+  },
+  " loginPagecopy.spec.js Test login page Check login page elements" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "747887cb86abdb9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647291495173,
+        "stop" : 1647291500414,
+        "duration" : 5241
+      }
+    } ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "uid" : "5b10072ff098f7fd",
+  "name" : "Login Page Elements",
+  "fullName" : "Login Page Elements",
+  "historyId" : "firefox specs\\createAccount.spec.js Test login page Login Page Elements",
+  "time" : {
+    "start" : 1647438624969,
+    "stop" : 1647438643616,
+    "duration" : 18647
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
+  "statusTrace" : "\n    at C:\\Users\\ricardo.polanski\\new-project\\tests\\specs\\createAccount.spec.js:13:59",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
+    "statusTrace" : "\n    at C:\\Users\\ricardo.polanski\\new-project\\tests\\specs\\createAccount.spec.js:13:59",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1647438624970,
+        "stop" : 1647438636098,
+        "duration" : 11128
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1647438628197,
+          "stop" : 1647438628983,
+          "duration" : 786
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://app.deel.training/login)",
+        "time" : {
+          "start" : 1647438628987,
+          "stop" : 1647438629499,
+          "duration" : 512
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "locator.fill([id=\"mui-1\"])",
+        "time" : {
+          "start" : 1647438629501,
+          "stop" : 1647438633439,
+          "duration" : 3938
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "locator.fill([id=\"mui-2\"])",
+        "time" : {
+          "start" : 1647438633440,
+          "stop" : 1647438633812,
+          "duration" : 372
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "page.waitForNavigation",
+        "time" : {
+          "start" : 1647438633814,
+          "stop" : 1647438636098,
+          "duration" : 2284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "locator.click([data-qa=\"log-in\"])",
+        "time" : {
+          "start" : 1647438633817,
+          "stop" : 1647438634172,
+          "duration" : 355
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1647438636101,
+        "stop" : 1647438643531,
+        "duration" : 7430
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1647438643532,
+        "stop" : 1647438643616,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1647438643534,
+          "stop" : 1647438643616,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "suite",
+    "value" : "specs\\createAccount.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b10072ff098f7fd.json",
+  "parameterValues" : [ ]
+}

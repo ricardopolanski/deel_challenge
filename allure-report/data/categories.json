@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
+      "children" : [ {
+        "name" : "Login Page Elements",
+        "uid" : "8a5c700d3b555c93",
+        "parentUid" : "c4e4feaf6c8576d43bd63cc2b94befab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647438607977,
+          "stop" : 1647438620915,
+          "duration" : 12938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login Page Elements",
+        "uid" : "5b10072ff098f7fd",
+        "parentUid" : "c4e4feaf6c8576d43bd63cc2b94befab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647438624969,
+          "stop" : 1647438643616,
+          "duration" : 18647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login Page Elements",
+        "uid" : "646deec365952b98",
+        "parentUid" : "c4e4feaf6c8576d43bd63cc2b94befab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647438662567,
+          "stop" : 1647438675345,
+          "duration" : 12778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4e4feaf6c8576d43bd63cc2b94befab"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
