@@ -35,7 +35,7 @@ class SignUp {
 
     hearAboutDeelSelect = () => {
         // Click #react-select-2-option-1
-        return '#react-select-2-option-1'
+        return '#react-select-2-option-0'
     }
     btnCreate = () => {
         // Click button:has-text("create your deel account")
