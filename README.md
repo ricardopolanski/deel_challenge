@@ -1,0 +1,1 @@
+[![Playwright Tests](https://github.com/ricardopolanski/deel_challenge/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/ricardopolanski/deel_challenge/actions/workflows/playwright.yml)
