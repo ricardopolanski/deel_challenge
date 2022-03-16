@@ -62,6 +62,14 @@ class ContractElements {
         return '[data-qa="next"]'
     }
 
+    btnNextPopUp = () => {
+        return 'button:has-text("Next")'
+    }
+
+    btnDone = () => {
+        return 'button:has-text("Done")'
+    }
+
     todayDay = (month, day, year) => {
         return `text=Today - ${month} ${day}, ${year}`
     }
