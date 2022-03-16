@@ -1,241 +1,121 @@
 [ {
-  "uid" : "97b4a8943c1057e6",
+  "uid" : "cbe625d4cf03848d",
   "name" : "Test signUp - Short Password",
   "time" : {
-    "start" : 1647457320248,
-    "stop" : 1647457326155,
-    "duration" : 5907
+    "start" : 1647458000578,
+    "stop" : 1647458007529,
+    "duration" : 6951
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e0ea7f7733cd320c",
-  "name" : "Test signUp - email Requirements",
+  "uid" : "3c8048aaad6d54cc",
+  "name" : "SignUp Success",
   "time" : {
-    "start" : 1647457326155,
-    "stop" : 1647457331721,
-    "duration" : 5566
+    "start" : 1647458012832,
+    "stop" : 1647458017990,
+    "duration" : 5158
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c67a2e09f36372d6",
-  "name" : "Create Contract Page Elements",
-  "time" : {
-    "start" : 1647438936678,
-    "stop" : 1647438959982,
-    "duration" : 23304
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f9405754b7d83b5",
-  "name" : "Test signUp - Password Unmatch",
-  "time" : {
-    "start" : 1647457311774,
-    "stop" : 1647457322813,
-    "duration" : 11039
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3ab34c26590e3bad",
-  "name" : "Check Login Page Elements",
-  "time" : {
-    "start" : 1647438676362,
-    "stop" : 1647438681957,
-    "duration" : 5595
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1945736435bce044",
+  "uid" : "60ff94f5dbb2e933",
   "name" : "Test signUp - Short Password",
   "time" : {
-    "start" : 1647457320390,
-    "stop" : 1647457325813,
-    "duration" : 5423
+    "start" : 1647458002049,
+    "stop" : 1647458007337,
+    "duration" : 5288
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a09fdee4b2aeb926",
-  "name" : "Login Test",
-  "time" : {
-    "start" : 1647438681956,
-    "stop" : 1647438685600,
-    "duration" : 3644
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40d300a953326dfa",
-  "name" : "Check Login Page Elements",
-  "time" : {
-    "start" : 1647438646905,
-    "stop" : 1647438656002,
-    "duration" : 9097
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "27e5c90a5f65eb88",
-  "name" : "Login Test",
-  "time" : {
-    "start" : 1647438627228,
-    "stop" : 1647438631462,
-    "duration" : 4234
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ae337ec332171346",
-  "name" : "Login Page Elements",
-  "time" : {
-    "start" : 1647438607977,
-    "stop" : 1647438620915,
-    "duration" : 12938
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "78e4906775a4e824",
-  "name" : "Test signUp - email Requirements",
-  "time" : {
-    "start" : 1647457325813,
-    "stop" : 1647457330932,
-    "duration" : 5119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ef9d90a347df6b6",
-  "name" : "Login Test",
-  "time" : {
-    "start" : 1647438656002,
-    "stop" : 1647438661043,
-    "duration" : 5041
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aaf00b0b2efddf42",
+  "uid" : "fc79ce9650a1308d",
   "name" : "Test signUp - Password Unmatch",
   "time" : {
-    "start" : 1647457311710,
-    "stop" : 1647457320391,
-    "duration" : 8681
+    "start" : 1647457986322,
+    "stop" : 1647458002049,
+    "duration" : 15727
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f3e5fcb546cd040",
+  "uid" : "2b66d614b169c0bc",
   "name" : "SignUp Success",
   "time" : {
-    "start" : 1647457333532,
-    "stop" : 1647457338713,
-    "duration" : 5181
+    "start" : 1647458012305,
+    "stop" : 1647458017300,
+    "duration" : 4995
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c9e89a0ec1060b0",
-  "name" : "Check Login Page Elements",
+  "uid" : "c0663c3bcfd7ca72",
+  "name" : "Test signUp - email Requirements",
   "time" : {
-    "start" : 1647438621885,
-    "stop" : 1647438627228,
-    "duration" : 5343
+    "start" : 1647458007337,
+    "stop" : 1647458012832,
+    "duration" : 5495
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9bae6c95dcb00bc",
+  "uid" : "2fc1bbf4d8217733",
+  "name" : "Test signUp - Password Unmatch",
+  "time" : {
+    "start" : 1647457986238,
+    "stop" : 1647458001850,
+    "duration" : 15612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2f26522463badb2",
+  "name" : "SignUp Success",
+  "time" : {
+    "start" : 1647458013369,
+    "stop" : 1647458018861,
+    "duration" : 5492
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dae7cc95ead563b",
+  "name" : "Test signUp - email Requirements",
+  "time" : {
+    "start" : 1647458006977,
+    "stop" : 1647458012304,
+    "duration" : 5327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7f9f9cb10b1e16",
+  "name" : "Test signUp - Password Unmatch",
+  "time" : {
+    "start" : 1647457986269,
+    "stop" : 1647458000578,
+    "duration" : 14309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c87fc77c5406c2c1",
+  "name" : "Test signUp - email Requirements",
+  "time" : {
+    "start" : 1647458007528,
+    "stop" : 1647458013368,
+    "duration" : 5840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c1d30ba55e3cafa",
   "name" : "Test signUp - Short Password",
   "time" : {
-    "start" : 1647457322813,
-    "stop" : 1647457328196,
-    "duration" : 5383
+    "start" : 1647458001850,
+    "stop" : 1647458006977,
+    "duration" : 5127
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b43b7ba364f037c",
-  "name" : "Test signUp - email Requirements",
-  "time" : {
-    "start" : 1647457328196,
-    "stop" : 1647457333531,
-    "duration" : 5335
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "354f6373b8efe7da",
-  "name" : "Create Contract Page Elements",
-  "time" : {
-    "start" : 1647438956140,
-    "stop" : 1647438973149,
-    "duration" : 17009
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f38043abd54723c5",
-  "name" : "Create Contract Page Elements",
-  "time" : {
-    "start" : 1647438936677,
-    "stop" : 1647438953786,
-    "duration" : 17109
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a644396cba596bc",
-  "name" : "Login Page Elements",
-  "time" : {
-    "start" : 1647438662567,
-    "stop" : 1647438675345,
-    "duration" : 12778
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "7e43fd2d20065fe",
-  "name" : "Test signUp - Password Unmatch",
-  "time" : {
-    "start" : 1647457311711,
-    "stop" : 1647457320249,
-    "duration" : 8538
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "460790b59a46656e",
-  "name" : "SignUp Success",
-  "time" : {
-    "start" : 1647457330932,
-    "stop" : 1647457335725,
-    "duration" : 4793
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "adc3eedd1d236859",
-  "name" : "SignUp Success",
-  "time" : {
-    "start" : 1647457331722,
-    "stop" : 1647457336842,
-    "duration" : 5120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f9de6628d0934107",
-  "name" : "Login Page Elements",
-  "time" : {
-    "start" : 1647438624969,
-    "stop" : 1647438643616,
-    "duration" : 18647
-  },
-  "status" : "failed",
   "severity" : "normal"
 } ]

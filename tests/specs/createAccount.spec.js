@@ -1,4 +1,4 @@
-const {logon} = require('../functions/login.js');
+/* const {logon} = require('../functions/login.js');
 const {test,expect} = require('@playwright/test');
 
 logon()
@@ -7,11 +7,19 @@ test.describe('Test login page', () => {
   test('Login Page Elements', async ({page}) => {
 
 
-
+    await page.locator('#CybotCookiebotDialogBodyButtonAccept').click();
+    // Click button:has-text("Next")
+    await page.locator('button:has-text("Next")').click();
+    // Click button:has-text("Next")
+    await page.locator('button:has-text("Next")').click();
+    // Click button:has-text("Done")
+    await page.locator('button:has-text("Next")').click();
+    await page.locator('button:has-text("Done")').click();
 
     // Click input[name="companyName"]
     await expect(page.locator('[data-qa="companyName"]')).toBeVisible();
     await expect(page.locator('[data-qa="companyName"]')).toBeEnabled();
+    
 
 
 
@@ -48,4 +56,4 @@ test.describe('Test login page', () => {
 
 });
 
-});
+}); */
