@@ -1,4 +1,8 @@
 const {test,expect} = require('@playwright/test');
+const {login} = require('../functions/loginData');
+const {LoginElements} = require('../pageObjects/loginPageElements.js');
+const loginElements = new LoginElements
+const loginData = login()
 
 test.beforeEach(async ({page}) => {
   await page.goto('https://app.deel.training/login');
@@ -7,38 +11,24 @@ test.beforeEach(async ({page}) => {
 test.describe('Test login page', () => {
   test('Check Login Page Elements', async ({page}) => {
 
-    await expect(page.locator('[placeholder="Type\\ your\\ email"]')).toBeVisible();
-    await expect(page.locator('[placeholder="Type\\ your\\ email"]')).toBeEnabled();
+    await expect(page.locator(loginElements.emailField())).toBeVisible();
+    await expect(page.locator(loginElements.passwdField())).toBeEnabled();
 
-    await expect(page.locator('input[name="password"]')).toBeVisible();
-    await expect(page.locator('input[name="password"]')).toBeEnabled();
+    await expect(page.locator(loginElements.passwdField())).toBeVisible();
+    await expect(page.locator(loginElements.passwdField())).toBeEnabled();
 
-    await expect(page.locator('[data-qa="log-in"]')).toBeVisible();
-    await expect(page.locator('[data-qa="log-in"]')).toBeEnabled();
+    await expect(page.locator(loginElements.btnLogin())).toBeVisible();
+    await expect(page.locator(loginElements.btnLogin())).toBeEnabled();
 
   });
 
     test('Login Test', async ({page}) => {
-
-    // Fill [placeholder="Type\ your\ email"]
-    await page.locator('[placeholder="Type\\ your\\ email"]').fill('rpolanski@live.com');
-
-    // Fill input[name="password"]
-    await page.locator('input[name="password"]').fill('Testdeel123$');
-
-    // Click form button:has-text("log in")
+    await page.locator(loginElements.emailField()).fill(loginData.email);
+    await page.locator(loginElements.passwdField()).fill(loginData.passwd);;
     await Promise.all([
       page.waitForResponse(response =>
           response.status() == 200),
-      page.locator('form button:has-text("log in")').click()
-      
-      
-      
+      page.locator(loginElements.btnLogin()).click()
     ]);
-    
-
   });
-
-
-
 });

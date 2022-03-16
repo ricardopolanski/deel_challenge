@@ -1,252 +1,4 @@
 {
-  "firefox specs\\loginPage.spec.js Test login page Check Login Page Elements" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "40d300a953326dfa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647438646905,
-        "stop" : 1647438656002,
-        "duration" : 9097
-      }
-    } ]
-  },
-  "chromium specs\\signUp.spec.js Test signUp Requirements SignUp Success" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "adc3eedd1d236859",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457331722,
-        "stop" : 1647457336842,
-        "duration" : 5120
-      }
-    } ]
-  },
-  "chromium specs\\createDeelContract.spec.js Create Contract Create Contract Page Elements" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f38043abd54723c5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647438936677,
-        "stop" : 1647438953786,
-        "duration" : 17109
-      }
-    } ]
-  },
-  "edge specs\\signUp.spec.js Test signUp Requirements Test signUp - email Requirements" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "78e4906775a4e824",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457325813,
-        "stop" : 1647457330932,
-        "duration" : 5119
-      }
-    } ]
-  },
-  "edge specs\\loginPage.spec.js Test login page Check Login Page Elements" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3ab34c26590e3bad",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647438676362,
-        "stop" : 1647438681957,
-        "duration" : 5595
-      }
-    } ]
-  },
-  "chromium specs\\loginPage.spec.js Test login page Check Login Page Elements" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c9e89a0ec1060b0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647438621885,
-        "stop" : 1647438627228,
-        "duration" : 5343
-      }
-    } ]
-  },
-  "firefox specs\\signUp.spec.js Test signUp Requirements Test signUp - Password Unmatch" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4f9405754b7d83b5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457311774,
-        "stop" : 1647457322813,
-        "duration" : 11039
-      }
-    } ]
-  },
-  "edge specs\\signUp.spec.js Test signUp Requirements Test signUp - Password Unmatch" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "aaf00b0b2efddf42",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457311710,
-        "stop" : 1647457320391,
-        "duration" : 8681
-      }
-    } ]
-  },
-  "edge specs\\signUp.spec.js Test signUp Requirements SignUp Success" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "460790b59a46656e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457330932,
-        "stop" : 1647457335725,
-        "duration" : 4793
-      }
-    } ]
-  },
-  "edge specs\\signUp.spec.js Test signUp Requirements Test signUp - Short Password" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1945736435bce044",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457320390,
-        "stop" : 1647457325813,
-        "duration" : 5423
-      }
-    } ]
-  },
-  "firefox specs\\signUp.spec.js Test signUp Requirements SignUp Success" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8f3e5fcb546cd040",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647457333532,
-        "stop" : 1647457338713,
-        "duration" : 5181
-      }
-    } ]
-  },
-  "chromium specs\\createAccount.spec.js Test login page Login Page Elements" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ae337ec332171346",
-      "status" : "failed",
-      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
-      "time" : {
-        "start" : 1647438607977,
-        "stop" : 1647438620915,
-        "duration" : 12938
-      }
-    } ]
-  },
-  "firefox specs\\loginPage.spec.js Test login page Login Test" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4ef9d90a347df6b6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647438656002,
-        "stop" : 1647438661043,
-        "duration" : 5041
-      }
-    } ]
-  },
   "chromium specs\\signUp.spec.js Test signUp Requirements Test signUp - Password Unmatch" : {
     "statistic" : {
       "failed" : 0,
@@ -257,32 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e43fd2d20065fe",
+      "uid" : "2fc1bbf4d8217733",
       "status" : "passed",
       "time" : {
-        "start" : 1647457311711,
-        "stop" : 1647457320249,
-        "duration" : 8538
-      }
-    } ]
-  },
-  "edge specs\\createAccount.spec.js Test login page Login Page Elements" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6a644396cba596bc",
-      "status" : "failed",
-      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
-      "time" : {
-        "start" : 1647438662567,
-        "stop" : 1647438675345,
-        "duration" : 12778
+        "start" : 1647457986238,
+        "stop" : 1647458001850,
+        "duration" : 15612
       }
     } ]
   },
@@ -296,16 +28,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e0ea7f7733cd320c",
+      "uid" : "8dae7cc95ead563b",
       "status" : "passed",
       "time" : {
-        "start" : 1647457326155,
-        "stop" : 1647457331721,
-        "duration" : 5566
+        "start" : 1647458006977,
+        "stop" : 1647458012304,
+        "duration" : 5327
       }
     } ]
   },
-  "edge specs\\createDeelContract.spec.js Create Contract Create Contract Page Elements" : {
+  "chromium specs\\signUp.spec.js Test signUp Requirements SignUp Success" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -315,12 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "354f6373b8efe7da",
+      "uid" : "2b66d614b169c0bc",
       "status" : "passed",
       "time" : {
-        "start" : 1647438956140,
-        "stop" : 1647438973149,
-        "duration" : 17009
+        "start" : 1647458012305,
+        "stop" : 1647458017300,
+        "duration" : 4995
+      }
+    } ]
+  },
+  "edge specs\\signUp.spec.js Test signUp Requirements Test signUp - email Requirements" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c0663c3bcfd7ca72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647458007337,
+        "stop" : 1647458012832,
+        "duration" : 5495
       }
     } ]
   },
@@ -334,31 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97b4a8943c1057e6",
+      "uid" : "3c1d30ba55e3cafa",
       "status" : "passed",
       "time" : {
-        "start" : 1647457320248,
-        "stop" : 1647457326155,
-        "duration" : 5907
-      }
-    } ]
-  },
-  "chromium specs\\loginPage.spec.js Test login page Login Test" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "27e5c90a5f65eb88",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647438627228,
-        "stop" : 1647438631462,
-        "duration" : 4234
+        "start" : 1647458001850,
+        "stop" : 1647458006977,
+        "duration" : 5127
       }
     } ]
   },
@@ -372,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9bae6c95dcb00bc",
+      "uid" : "cbe625d4cf03848d",
       "status" : "passed",
       "time" : {
-        "start" : 1647457322813,
-        "stop" : 1647457328196,
-        "duration" : 5383
+        "start" : 1647458000578,
+        "stop" : 1647458007529,
+        "duration" : 6951
       }
     } ]
   },
@@ -391,16 +123,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b43b7ba364f037c",
+      "uid" : "c87fc77c5406c2c1",
       "status" : "passed",
       "time" : {
-        "start" : 1647457328196,
-        "stop" : 1647457333531,
-        "duration" : 5335
+        "start" : 1647458007528,
+        "stop" : 1647458013368,
+        "duration" : 5840
       }
     } ]
   },
-  "edge specs\\loginPage.spec.js Test login page Login Test" : {
+  "edge specs\\signUp.spec.js Test signUp Requirements Test signUp - Short Password" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -410,36 +142,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a09fdee4b2aeb926",
+      "uid" : "60ff94f5dbb2e933",
       "status" : "passed",
       "time" : {
-        "start" : 1647438681956,
-        "stop" : 1647438685600,
-        "duration" : 3644
+        "start" : 1647458002049,
+        "stop" : 1647458007337,
+        "duration" : 5288
       }
     } ]
   },
-  "firefox specs\\createAccount.spec.js Test login page Login Page Elements" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f9de6628d0934107",
-      "status" : "failed",
-      "statusDetails" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
-      "time" : {
-        "start" : 1647438624969,
-        "stop" : 1647438643616,
-        "duration" : 18647
-      }
-    } ]
-  },
-  "firefox specs\\createDeelContract.spec.js Create Contract Create Contract Page Elements" : {
+  "edge specs\\signUp.spec.js Test signUp Requirements Test signUp - Password Unmatch" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -449,12 +161,69 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c67a2e09f36372d6",
+      "uid" : "fc79ce9650a1308d",
       "status" : "passed",
       "time" : {
-        "start" : 1647438936678,
-        "stop" : 1647438959982,
-        "duration" : 23304
+        "start" : 1647457986322,
+        "stop" : 1647458002049,
+        "duration" : 15727
+      }
+    } ]
+  },
+  "firefox specs\\signUp.spec.js Test signUp Requirements Test signUp - Password Unmatch" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7f9f9cb10b1e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647457986269,
+        "stop" : 1647458000578,
+        "duration" : 14309
+      }
+    } ]
+  },
+  "edge specs\\signUp.spec.js Test signUp Requirements SignUp Success" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c8048aaad6d54cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647458012832,
+        "stop" : 1647458017990,
+        "duration" : 5158
+      }
+    } ]
+  },
+  "firefox specs\\signUp.spec.js Test signUp Requirements SignUp Success" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2f26522463badb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647458013369,
+        "stop" : 1647458018861,
+        "duration" : 5492
       }
     } ]
   }
