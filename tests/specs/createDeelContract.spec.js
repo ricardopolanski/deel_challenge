@@ -8,7 +8,7 @@ const {logon} = require('../functions/login.js');
 const info = generalInfo()
 const getDate = date()
 
-logon()
+logon('old')
 
 test.describe('Create Contract', () => {
   test('Create Contract Page Elements', async ({page}) => {

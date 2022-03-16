@@ -52,11 +52,12 @@ test.describe('Test signUp Requirements', () => {
     
     test('SignUp Success', async ({page}) => {
         await page.locator(sign.clientNameField()).fill(client.name);
-        await page.locator(sign.clientEmail()).fill(client.email);      
-        await page.locator(sign.password()).fill(client.password);
-        await page.locator(sign.passwordConfirm()).fill(client.password);
+        await page.locator(sign.clientEmail()).fill('live@live.com');      
+        await page.locator(sign.password()).fill('Ricochete123$');
+        await page.locator(sign.passwordConfirm()).fill('Ricochete123$');
         await page.locator(sign.hearAboutDeel()).click();
         await page.locator(sign.hearAboutDeelSelect()).click();
         await page.locator(sign.btnCreate()).click();
+        await page.goto('https://app.deel.training/create-account/company');
     });
 });
