@@ -1,11 +1,12 @@
-const {login} = require('./loginData.js');
+const {login} = require('../functions/loginData');
 const {LoginElements} = require('../pageObjects/loginPageElements.js');
 const loginElements = new LoginElements
-const loginData = login()
+
 const {test} = require('@playwright/test');
 
-function logon(){
+function logon(client){
 
+  const loginData = login(client)
       
       test.beforeEach(async ({page}) => {
         await page.goto('https://app.deel.training/login');    
