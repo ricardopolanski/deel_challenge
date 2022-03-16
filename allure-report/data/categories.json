@@ -7,7 +7,7 @@
       "name" : "expect(received).toBeVisible()\nCall log:\n  - expect.toBeVisible with timeout 5000ms\n  - waiting for selector \"[data-qa=\"companyName\"]\"\n",
       "children" : [ {
         "name" : "Login Page Elements",
-        "uid" : "8a5c700d3b555c93",
+        "uid" : "ae337ec332171346",
         "parentUid" : "c4e4feaf6c8576d43bd63cc2b94befab",
         "status" : "failed",
         "time" : {
@@ -24,7 +24,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Login Page Elements",
-        "uid" : "5b10072ff098f7fd",
+        "uid" : "f9de6628d0934107",
         "parentUid" : "c4e4feaf6c8576d43bd63cc2b94befab",
         "status" : "failed",
         "time" : {
@@ -41,7 +41,7 @@
         "parameters" : [ ]
       }, {
         "name" : "Login Page Elements",
-        "uid" : "646deec365952b98",
+        "uid" : "6a644396cba596bc",
         "parentUid" : "c4e4feaf6c8576d43bd63cc2b94befab",
         "status" : "failed",
         "time" : {

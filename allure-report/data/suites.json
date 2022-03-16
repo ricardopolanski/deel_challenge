@@ -9,7 +9,7 @@
         "name" : "Test login page",
         "children" : [ {
           "name" : "Login Page Elements",
-          "uid" : "8a5c700d3b555c93",
+          "uid" : "ae337ec332171346",
           "parentUid" : "752cf4e727dc1eb0b2abaccea993c4ce",
           "status" : "failed",
           "time" : {
@@ -29,37 +29,12 @@
       } ],
       "uid" : "11944f4eebd2dad1b6e881c7b0b58478"
     }, {
-      "name" : "specs\\createDeelContract.spec.js",
-      "children" : [ {
-        "name" : "Create Contract",
-        "children" : [ {
-          "name" : "Create Contract Page Elements",
-          "uid" : "99b698f141742527",
-          "parentUid" : "7d1aebcacec991614bfe1ae9f58f2003",
-          "status" : "passed",
-          "time" : {
-            "start" : 1647438607984,
-            "stop" : 1647438624118,
-            "duration" : 16134
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "7d1aebcacec991614bfe1ae9f58f2003"
-      } ],
-      "uid" : "03347a100bd704ee723159830104962e"
-    }, {
       "name" : "specs\\loginPage.spec.js",
       "children" : [ {
         "name" : "Test login page",
         "children" : [ {
           "name" : "Check Login Page Elements",
-          "uid" : "d7701fd0b81f0205",
+          "uid" : "c9e89a0ec1060b0",
           "parentUid" : "944ae696224b285de41d424f44bd1b5b",
           "status" : "passed",
           "time" : {
@@ -76,7 +51,7 @@
           "parameters" : [ ]
         }, {
           "name" : "Login Test",
-          "uid" : "ffe33c78a8ca1a59",
+          "uid" : "27e5c90a5f65eb88",
           "parentUid" : "944ae696224b285de41d424f44bd1b5b",
           "status" : "passed",
           "time" : {
@@ -95,6 +70,107 @@
         "uid" : "944ae696224b285de41d424f44bd1b5b"
       } ],
       "uid" : "f98e533aec4d75aa146985d43804e2ca"
+    }, {
+      "name" : "specs\\createDeelContract.spec.js",
+      "children" : [ {
+        "name" : "Create Contract",
+        "children" : [ {
+          "name" : "Create Contract Page Elements",
+          "uid" : "f38043abd54723c5",
+          "parentUid" : "7d1aebcacec991614bfe1ae9f58f2003",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647438936677,
+            "stop" : 1647438953786,
+            "duration" : 17109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7d1aebcacec991614bfe1ae9f58f2003"
+      } ],
+      "uid" : "03347a100bd704ee723159830104962e"
+    }, {
+      "name" : "specs\\signUp.spec.js",
+      "children" : [ {
+        "name" : "Test signUp Requirements",
+        "children" : [ {
+          "name" : "Test signUp - Password Unmatch",
+          "uid" : "7e43fd2d20065fe",
+          "parentUid" : "3a350f8131d108f9d5ec15c3d710d457",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457311711,
+            "stop" : 1647457320249,
+            "duration" : 8538
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test signUp - Short Password",
+          "uid" : "97b4a8943c1057e6",
+          "parentUid" : "3a350f8131d108f9d5ec15c3d710d457",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457320248,
+            "stop" : 1647457326155,
+            "duration" : 5907
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test signUp - email Requirements",
+          "uid" : "e0ea7f7733cd320c",
+          "parentUid" : "3a350f8131d108f9d5ec15c3d710d457",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457326155,
+            "stop" : 1647457331721,
+            "duration" : 5566
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUp Success",
+          "uid" : "adc3eedd1d236859",
+          "parentUid" : "3a350f8131d108f9d5ec15c3d710d457",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457331722,
+            "stop" : 1647457336842,
+            "duration" : 5120
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a350f8131d108f9d5ec15c3d710d457"
+      } ],
+      "uid" : "db29b0cbc709e561aa330ad9c317b740"
     } ],
     "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
   }, {
@@ -105,7 +181,7 @@
         "name" : "Test login page",
         "children" : [ {
           "name" : "Login Page Elements",
-          "uid" : "5b10072ff098f7fd",
+          "uid" : "f9de6628d0934107",
           "parentUid" : "371bf25620a5fa346c979aac552d63b4",
           "status" : "failed",
           "time" : {
@@ -125,37 +201,12 @@
       } ],
       "uid" : "c60d316cd7cd01a3ecfdd9745a9c75e8"
     }, {
-      "name" : "specs\\createDeelContract.spec.js",
-      "children" : [ {
-        "name" : "Create Contract",
-        "children" : [ {
-          "name" : "Create Contract Page Elements",
-          "uid" : "564a75ae65d2db6e",
-          "parentUid" : "6b293415c413d9127053e223f5a4e151",
-          "status" : "passed",
-          "time" : {
-            "start" : 1647438632306,
-            "stop" : 1647438659489,
-            "duration" : 27183
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "6b293415c413d9127053e223f5a4e151"
-      } ],
-      "uid" : "d7a76144d5d74060df084c245a0409bc"
-    }, {
       "name" : "specs\\loginPage.spec.js",
       "children" : [ {
         "name" : "Test login page",
         "children" : [ {
           "name" : "Check Login Page Elements",
-          "uid" : "8057f16ce9f93798",
+          "uid" : "40d300a953326dfa",
           "parentUid" : "626fd514ce4d8ce529032dd69488a3dc",
           "status" : "passed",
           "time" : {
@@ -172,7 +223,7 @@
           "parameters" : [ ]
         }, {
           "name" : "Login Test",
-          "uid" : "cd78160bebf51e85",
+          "uid" : "4ef9d90a347df6b6",
           "parentUid" : "626fd514ce4d8ce529032dd69488a3dc",
           "status" : "passed",
           "time" : {
@@ -191,6 +242,107 @@
         "uid" : "626fd514ce4d8ce529032dd69488a3dc"
       } ],
       "uid" : "0492128e9a9287b976a80d76f8363de9"
+    }, {
+      "name" : "specs\\createDeelContract.spec.js",
+      "children" : [ {
+        "name" : "Create Contract",
+        "children" : [ {
+          "name" : "Create Contract Page Elements",
+          "uid" : "c67a2e09f36372d6",
+          "parentUid" : "6b293415c413d9127053e223f5a4e151",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647438936678,
+            "stop" : 1647438959982,
+            "duration" : 23304
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6b293415c413d9127053e223f5a4e151"
+      } ],
+      "uid" : "d7a76144d5d74060df084c245a0409bc"
+    }, {
+      "name" : "specs\\signUp.spec.js",
+      "children" : [ {
+        "name" : "Test signUp Requirements",
+        "children" : [ {
+          "name" : "Test signUp - Password Unmatch",
+          "uid" : "4f9405754b7d83b5",
+          "parentUid" : "2f7bc1d44100417d4c7b5203f562d66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457311774,
+            "stop" : 1647457322813,
+            "duration" : 11039
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test signUp - Short Password",
+          "uid" : "9bae6c95dcb00bc",
+          "parentUid" : "2f7bc1d44100417d4c7b5203f562d66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457322813,
+            "stop" : 1647457328196,
+            "duration" : 5383
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test signUp - email Requirements",
+          "uid" : "4b43b7ba364f037c",
+          "parentUid" : "2f7bc1d44100417d4c7b5203f562d66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457328196,
+            "stop" : 1647457333531,
+            "duration" : 5335
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUp Success",
+          "uid" : "8f3e5fcb546cd040",
+          "parentUid" : "2f7bc1d44100417d4c7b5203f562d66f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457333532,
+            "stop" : 1647457338713,
+            "duration" : 5181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2f7bc1d44100417d4c7b5203f562d66f"
+      } ],
+      "uid" : "6cf67229eda132acdf78a238b83b05d4"
     } ],
     "uid" : "ed39c131db56604842b18253a0c76267"
   }, {
@@ -201,7 +353,7 @@
         "name" : "Test login page",
         "children" : [ {
           "name" : "Login Page Elements",
-          "uid" : "646deec365952b98",
+          "uid" : "6a644396cba596bc",
           "parentUid" : "88204dcb10d1b091e44d73150098671c",
           "status" : "failed",
           "time" : {
@@ -221,37 +373,12 @@
       } ],
       "uid" : "e8e50828ba10a5e696d3d29e31f3e96f"
     }, {
-      "name" : "specs\\createDeelContract.spec.js",
-      "children" : [ {
-        "name" : "Create Contract",
-        "children" : [ {
-          "name" : "Create Contract Page Elements",
-          "uid" : "b9e9f12e672f7778",
-          "parentUid" : "2dda5340f9f2a99aa1ee9a42c6ec014a",
-          "status" : "passed",
-          "time" : {
-            "start" : 1647438663841,
-            "stop" : 1647438679562,
-            "duration" : 15721
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "newPassed" : false,
-          "newBroken" : false,
-          "retriesCount" : 0,
-          "retriesStatusChange" : false,
-          "parameters" : [ ]
-        } ],
-        "uid" : "2dda5340f9f2a99aa1ee9a42c6ec014a"
-      } ],
-      "uid" : "7f0e95bc8a2b91640ac8945e53240635"
-    }, {
       "name" : "specs\\loginPage.spec.js",
       "children" : [ {
         "name" : "Test login page",
         "children" : [ {
           "name" : "Check Login Page Elements",
-          "uid" : "908e0b50bf5f19e0",
+          "uid" : "3ab34c26590e3bad",
           "parentUid" : "af31d3968c139f463ffe85dcf451e166",
           "status" : "passed",
           "time" : {
@@ -268,7 +395,7 @@
           "parameters" : [ ]
         }, {
           "name" : "Login Test",
-          "uid" : "582a4ebe87809a5a",
+          "uid" : "a09fdee4b2aeb926",
           "parentUid" : "af31d3968c139f463ffe85dcf451e166",
           "status" : "passed",
           "time" : {
@@ -287,6 +414,107 @@
         "uid" : "af31d3968c139f463ffe85dcf451e166"
       } ],
       "uid" : "5e37b4199bf1f42d89f51b5b7b5dabb3"
+    }, {
+      "name" : "specs\\createDeelContract.spec.js",
+      "children" : [ {
+        "name" : "Create Contract",
+        "children" : [ {
+          "name" : "Create Contract Page Elements",
+          "uid" : "354f6373b8efe7da",
+          "parentUid" : "2dda5340f9f2a99aa1ee9a42c6ec014a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647438956140,
+            "stop" : 1647438973149,
+            "duration" : 17009
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2dda5340f9f2a99aa1ee9a42c6ec014a"
+      } ],
+      "uid" : "7f0e95bc8a2b91640ac8945e53240635"
+    }, {
+      "name" : "specs\\signUp.spec.js",
+      "children" : [ {
+        "name" : "Test signUp Requirements",
+        "children" : [ {
+          "name" : "Test signUp - Password Unmatch",
+          "uid" : "aaf00b0b2efddf42",
+          "parentUid" : "502a5edc29986b255721fd17853af543",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457311710,
+            "stop" : 1647457320391,
+            "duration" : 8681
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test signUp - Short Password",
+          "uid" : "1945736435bce044",
+          "parentUid" : "502a5edc29986b255721fd17853af543",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457320390,
+            "stop" : 1647457325813,
+            "duration" : 5423
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test signUp - email Requirements",
+          "uid" : "78e4906775a4e824",
+          "parentUid" : "502a5edc29986b255721fd17853af543",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457325813,
+            "stop" : 1647457330932,
+            "duration" : 5119
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SignUp Success",
+          "uid" : "460790b59a46656e",
+          "parentUid" : "502a5edc29986b255721fd17853af543",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647457330932,
+            "stop" : 1647457335725,
+            "duration" : 4793
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "502a5edc29986b255721fd17853af543"
+      } ],
+      "uid" : "30c495120bfdd644d918d6bee64c5c5a"
     } ],
     "uid" : "310e0c7ce4ca9572d1389406119d755f"
   } ]

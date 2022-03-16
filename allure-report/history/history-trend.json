@@ -3,8 +3,8 @@
     "failed" : 3,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 9,
+    "passed" : 21,
     "unknown" : 0,
-    "total" : 12
+    "total" : 24
   }
 } ]
