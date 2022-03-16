@@ -16,7 +16,7 @@ test.beforeEach(async ({page}) => {
 });
 
 test.describe('Test signUp Requirements', () => {
-    test.only('Test signUp - Password Unmatch', async ({page}) => {
+    test('Test signUp - Password Unmatch', async ({page}) => {
         await page.locator(sign.clientNameField()).fill(client.name);
         await page.locator(sign.clientEmail()).fill(client.email);
         await page.locator(sign.password()).fill(client.password);
